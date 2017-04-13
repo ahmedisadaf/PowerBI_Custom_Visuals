@@ -1,0 +1,24 @@
+{
+  "visual": {
+    "name": "barVisual",
+    "displayName": "barVisual",
+    "guid": "PBI_CV_E098DC1B_B68D_4013_82A9_70510F8FAF91",
+    "visualClassName": "Visual",
+    "version": "1.0.0",
+    "description": "",
+    "supportUrl": "",
+    "gitHubUrl": ""
+  },
+  "apiVersion": "1.5.0",
+  "author": {
+    "name": "",
+    "email": ""
+  },
+  "assets": {
+    "icon": "assets/icon.png"
+  },
+  "externalJS": ["node_modules/d3/d3.js"],
+  "style": "style/visual.less",
+  "capabilities": "capabilities.json",
+  "dependencies": "dependencies.json"
+}
