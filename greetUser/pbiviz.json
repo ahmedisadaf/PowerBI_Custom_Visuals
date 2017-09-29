@@ -1,0 +1,35 @@
+{
+  "visual": {
+    "name": "greetUser",
+    "displayName": "greetUser",
+    "guid": "greetUser6CB07B751B8D459488570BBA348772CD",
+    "visualClassName": "Visual",
+    "version": "1.0.0",
+    "description": "The visual fetches the first name of the user who has logged into power bi. Thus you can greet your user saying Hello <username>,etc.",
+    "supportUrl": "https://github.com/ahmedisadaf/PowerBI_Custom_Visuals",
+    "gitHubUrl": "https://github.com/ahmedisadaf/PowerBI_Custom_Visuals"
+  },
+  "apiVersion": "1.7.0",
+  "author": {
+    "name": "Sadaf K Ahmedi",
+    "email": "sadaf.ahmedi@lntinfotech.com"
+  },
+  "assets": {
+    "icon": "assets/icon.png"
+  },
+  "externalJS": [
+    "node_modules/jquery/dist/jquery.js",
+    "node_modules/d3/d3.min.js",
+    "node_modules/lodash/lodash.min.js",
+    "node_modules/globalize/lib/globalize.js",
+    "node_modules/globalize/lib/cultures/globalize.culture.en-US.js",
+    "node_modules/powerbi-visuals-utils-typeutils/lib/index.js",
+    "node_modules/powerbi-visuals-utils-svgutils/lib/index.js",
+    "node_modules/powerbi-visuals-utils-dataviewutils/lib/index.js",
+    "node_modules/powerbi-visuals-utils-formattingutils/lib/index.js"
+  ],
+  "style": "style/visual.less",
+  "capabilities": "capabilities.json",
+  "dependencies": "dependencies.json",
+  "stringResources": []
+}

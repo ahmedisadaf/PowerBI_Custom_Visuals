@@ -1,0 +1,84 @@
+{
+  "dataRoles": [
+    {
+      "displayName": "User Name",
+      "name": "userName",
+      "kind": "Measure"
+    }
+  ],
+  "dataViewMappings": [
+    {
+      "conditions": [
+        {
+          "userName": {
+            "min": 1,
+            "max": 1
+          }
+        }
+      ],
+      "single": { "role": "userName" }
+    }
+  ],
+  "objects": {
+    "greetUserProperties": {
+      "displayName": "Greet User Properties",
+      "properties": {
+        
+
+        "fontBold": {
+          "displayName": "Font Bold",
+          "type": { "bool": true }
+        },
+        "fontColor": {
+          "displayName": "Font Color",
+          "type": { "fill": { "solid": { "color": true } } }
+        },
+        "backgroundColor": {
+          "displayName": "Background Color",
+          "type": { "fill": { "solid": { "color": true } } }
+        },
+        "fontType": {
+          "displayName": "Font Type",
+          "type": {
+            "enumeration": [
+              {
+                "displayName": "Arial",
+                "value": "arial"
+              },
+
+              {
+                "displayName": "Georgia",
+                "value": "georgia"
+              },
+              {
+                "displayName": "Helvetica",
+                "value": "helvetica"
+              },
+              {
+                "displayName": "Verdana",
+                "value": "verdana"
+              },
+              {
+                "displayName": "Times New Roman",
+                "value": "Times New Roman"
+              },
+              {
+                "displayName": "Serif",
+                "value": "Serif"
+              },
+              {
+                "displayName": "Segoe UI",
+                "value": "Segoe UI"
+              }
+            ]
+          }
+        },
+        "fontSize": {
+          "displayName": "Font Size",
+          "type": { "integer": true }
+        }
+      }
+    }
+
+  }
+}
